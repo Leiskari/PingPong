@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ping Pong</string>
+    <string name="buttonPlay_Desc">Play Button</string>
+    <string name="buttonScore_Desc">Score Button</string>
+    <string name="buttonEasy_Desc">Easy Button</string>
+    <string name="buttonMedium_Desc">Medium Button</string>
+    <string name="buttonHard_Desc">Hard Button</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context=".DifficultyActivity">
+
+    <ImageButton
+        android:id="@+id/buttonEasy"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/easy"
+        android:contentDescription="@string/buttonEasy_Desc"
+        android:onClick="onClick" />
+
+    <ImageButton
+        android:id="@+id/buttonMedium"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:background="@drawable/medium"
+        android:contentDescription="@string/buttonMedium_Desc"
+        android:onClick="onClick" />
+
+    <ImageButton
+        android:id="@+id/buttonHard"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/hard"
+        android:contentDescription="@string/buttonHard_Desc"
+        android:onClick="onClick" />
+
+</RelativeLayout>
